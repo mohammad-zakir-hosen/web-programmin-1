@@ -1,0 +1,35 @@
+img {
+ width: 200px;
+ float: right;
+ border: thin solid;
+ padding: .2em;
+ margin: .2em;
+
+}
+h1{
+  color:black;
+
+}
+.button1 {
+ background-color: #4CAF50; /* Green */
+ color: white;
+ }
+ .button2 {
+  background-color: blue; /* Green */
+  color: white;
+  }
+  .button3 {
+   background-color: red; /* Green */
+   color: white;
+   }
+   .button4 {
+    background-color: yellow; /* Green */
+    color: black;
+    }
+   p {
+      border-bottom: 1px solid black;
+}
+ td{
+color: red;
+font-size: 1.5em;
+ }

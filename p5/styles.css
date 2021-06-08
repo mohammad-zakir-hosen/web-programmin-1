@@ -1,0 +1,179 @@
+/*
+    #ff0303 (255, 3, 3)
+    #0303ff (3, 3, 255)
+    #ffff03 (255, 255, 3)
+*/
+* {
+  width: ;
+      border: ;
+      padding: ;
+      margin: ;
+
+}
+body {
+  background-color: #ffff03;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-style: normal;
+}
+header {
+  background-color: #ffffff; /* contrast test wanted it to be black but I like white */
+  text-align: right;
+}
+nav {
+  background-color: #ffffff;
+  text-align: center;
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+}
+nav a{
+  border: solid 1px #0303ff;
+  padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+}
+nav a:link {
+  color: #ff0303;
+}
+nav a:visited {
+  color: #ff0303;
+}
+nav a:hover {
+  color: #ffff03;
+}
+nav a:active {
+  color: #ffff03;
+}
+nav a:focus {
+  color: #ffff03;
+}
+main {
+  background-color: #ff0303;
+  color: #ffffff;
+  min-height: 300px;
+  border: #0303ff 3px solid;
+  border-left: none;
+  border-right: none;
+}
+
+
+footer {
+  background-color: #ffffff;
+  font-size: 0.70em;
+  text-align: center;
+  line-height: 50%;
+}
+footer a{
+  text-color: #ff0303;
+}
+footer a:link {
+  color: #ff0303;
+}
+footer a:visited {
+  color: #ff0303;
+}
+footer a:hover {
+  color: #ffff03;
+}
+footer a:active {
+  color: #ffff03;
+}
+footer a:focus {
+  color: #ffff03;
+}
+a {
+  text-decoration: none;
+}
+#wrapper {
+  background-color: #ffffff;
+  width: 95%;
+  min-height: 400px
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    box-shadow: 5px 5px #ff0303;
+    border-radius: 8px;
+}
+
+.fontImpact{
+
+  font-family: "Impact, Charcoal, sans-serif";
+  font-weight: bold;
+}
+
+.roundedImage{
+
+  margin: 10px;
+  border-radius: 20px;
+}
+.floatLeft{
+  float:left;
+}
+
+.floatRight{
+
+  float:right;
+}
+
+.clearFloat{
+
+  clear: both;
+}
+.noBullets{
+  list-style: none;
+}
+.overFlow{
+
+  overflow: auto;
+}
+.italics{
+  font-style: italic;
+}
+.smallCaps{
+
+  font-variant: small-caps;
+  font-size: 0.60em;
+}
+.textAlignCenter{
+  text-align: center;
+}
+.textAlignLeft{
+  text-align: left;
+}
+.textAlignRight{
+  text-align: right;
+}
+
+.latestDiscount{
+
+  background-color: pink;
+  color: white;
+  font-weight: bold;
+  padding:5px;
+  margin:10px;
+  font-variant: small-caps;
+  font-size: 0.80em;
+}
+
+.hide{
+  display: none;
+}
+.unhide{
+  display:block;
+}
+
+main h1{
+  font-size: 2em;
+}
+#productsMain li{
+
+  display:inline-block;
+}

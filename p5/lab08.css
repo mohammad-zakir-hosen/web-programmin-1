@@ -1,0 +1,42 @@
+.floatLeft {
+  float: left;
+  margin-right: 10px;
+}
+.floatRight {
+  float: right;
+  margin-left: 10px;
+}
+.image {
+  width: 50%;
+  margin-bottom: 1em;
+}
+p {
+  clear: both;
+}
+
+body{
+  font-family:Tahoma, Geneva, sans-serif;
+}
+
+header{
+
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link {
+  color: FireBrick;
+}
+a:visited {
+  color: FireBrick;
+}
+a:focus, a:hover {
+  color: white;
+  background-color: rgba(178,34,34,0.75);
+}
+a:active {
+  background-color: rgba(178,34,34,1.0);
+}

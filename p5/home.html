@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Mamtajs - Home</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Mamtaj Akter">
+  <meta name="description" content="CIS 110">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script>
+    function showCode() {
+      document.querySelector("#latestDiscountCode").className = "textAlignLeft unhide";
+    }
+  </script>
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <header>
+      <img src="Mumtaz.png" alt="Mamtajs Logo" height="150">
+    </header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main class="overFlow textAlignCenter">
+      <img src="images/lake.jpeg" alt="Lake" height="150" class="roundedImage floatLeft">
+      <h1>Yelp Inc (YELP.N)
+</h1>
+      <p>
+
+        <span class="fontImpact">Yelp Inc. (Yelp)</span> , incorporated on September 03, 2004, connects people with local businesses by bringing 'word of mouth' online and providing a platform for businesses and consumers to engage and transact. The Company
+        offers local business review sites. Yelp provides a platform for consumers to share their everyday local business experiences with other consumers by posting reviews, tips, photos and videos, and to engage directly with businesses, through reviews,
+        its Request-A-Quote and Message the Business features, and by completing transactions on the Yelp Platform. Yelp also provides businesses of all sizes with a range of free and paid services that help them engage with consumers.
+      </p>
+      <p>
+        &quot; Very Informative!&quot; - <span class="italics smallCaps">Harry Haltler</span>
+      </p>
+      <p class="clearFloat"></p>
+      <img src="images/beauty.jpg" alt="beaches" height="100" class="roundedImage floatRight">
+      <p class="textAlignLeft" onclick="showCode();"> <span class="latestDiscount">Click for our latest discount code!</span></p>
+      <p id="latestDiscountCode" class="textAlignLeft hide"><span class="latestDiscount">Latest Discount Code #: 1234</span></p>
+    </main>
+    <footer>
+      <p>
+        <a href="home.html">Home</a> &nbsp;|&nbsp;
+        <a href="products.html">Products</a> &nbsp;|&nbsp;
+        <a href="about.html">About</a> &nbsp;|&nbsp;
+        <a href="contact.html">Contact</a> &nbsp;|&nbsp;
+      </p>
+      <p> 503-333-3333
+      </p>
+      <p>
+        &copy; <a href="home.html">Mamtajs</a>. All rights reserved. Logo created using <a href="https://logomakr.com/">LogoMakr</a>
+      </p>
+    </footer>
+
+  </div>
+</body>
+
+</html>

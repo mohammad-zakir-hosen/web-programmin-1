@@ -1,0 +1,151 @@
+dd::first-letter{
+
+  font-size: 24px;
+}
+
+
+header{
+
+  background-color: rgba(255,255,255,0.5);
+  padding: 5px;
+
+}
+
+
+a:link{
+
+text-decoration: none;
+color:FireBrick;
+
+}
+
+a:visited{
+
+  text-decoration: none;
+  color:FireBrick;
+
+}
+
+a:focus{
+
+  color: white;
+  background-color: rgba(255,0,0,0.75);
+
+}
+
+a:hover{
+
+  text-decoration: underline;
+  color: white;
+  background-color: rgba(255,0,0,0.75);
+
+}
+
+a:active{
+
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a{
+text-decoration: none;
+
+}
+
+ul{
+
+  list-style: none;
+}
+
+li{
+  display: inline;
+}
+
+nav{
+text-align: center;
+
+}
+
+
+
+    body{
+
+      background-color: rgb(210,220,157);
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 100%;
+      line-height:1.75em;
+
+    }
+    h1{
+       font-family: 'Source Serif Pro', Georgia,  serif;
+       font-weight: bold;
+       font-size: 1.5em;
+       color: FireBrick;
+
+    }
+ h2{
+
+   background-image: linear-gradient(90deg, yellow, green);
+   font-size: 1em;
+   color: FireBrick;
+   text-transform: uppercase;
+   letter-spacing: 0.5em;
+
+ }
+
+ dt{
+
+   font-weight: bold;
+   color: Sienna;
+ }
+ P,dl{
+
+   font-size: 0.875em;
+ }
+
+ strong{
+
+   font-style: italic;
+ }
+
+ dt strong {
+color: Maroon;
+
+ }
+
+.price{
+
+  font-family:Verdana, sans-serif;
+  font-style: italic;
+  color:grey;
+}
+
+#info p{
+font-style: italic;
+color:  grey;
+
+}
+
+.label{
+
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
+
+p.warning, sup{
+
+  font-size: small;
+  color: red;
+}
+
+h1, h2, #info{
+
+  text-align: center;
+}
+
+h2+p{
+text-align: center;
+font-style: italic;
+
+}
